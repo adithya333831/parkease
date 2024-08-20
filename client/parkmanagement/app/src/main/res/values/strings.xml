@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">parkmanagement</string>
+    <string name="welcome_message">Welcome to parkease !</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="name_label">Name:</string>
+    <string name="username_button">Username</string>
+    <string name="phone_button">Phone</string>
+    <string name="password_button">Change password</string>
+    <string name="find_button">Find</string>
+    <string name="place_label">Place:</string>
+    <string name="search_button_label">Search</string>
+    <string name="search_hint">Enter search term</string>
+</resources>

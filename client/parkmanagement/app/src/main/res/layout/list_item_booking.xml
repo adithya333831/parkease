@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvBookingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvVehicleNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Number"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry Time"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvExitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Time"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPaymentStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Status"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvExtraAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Status"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextExitTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exit Time (yyyy-MM-dd HH:mm:ss)"
+        android:inputType="datetime"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBaseAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Amount Paid"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxExtraAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Amount Paid"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+
+
