@@ -1,1 +1,1 @@
-this is a simple project for parking management.here the client programs are done on android studio. server programs are done in eclipse.
+this is a simple project for parking management.here the client programs are done on android studio. server programs are done in eclipse.both server and client is in java. mysql is used as the database.
